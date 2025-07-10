@@ -1,21 +1,55 @@
-h1 {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    font-family: "roboto";
-    font-weight: "bold";
-    font-size: 56px;
-    text-align: "center";
-    border: 3px solid #2E2F42;
-    width: 1440;
-    height: 600;
-    letter-spacing: 2%;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.logo {
+    font-family: "raleway" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
+.web {
+    color: #4D5AE5;
+}
+.studio {
+    color: #2E2F42;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: #434455;
+}
+
+ul {
+    display: inline;
+}
+
+.h1c {
+    border: 1px solid #2E2F42;
+    padding: 1400;
+    background-color: #2E2F42;
+}
+
+h1 {
+    
+        color: #FFFFFF;
+        font-family: "roboto";
+        font-weight: "bold";
+        font-size: 56px;
+        
+}
+   
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-family: "roboto";
-        font-weight: "medium";
-        font-size: 12px;
+    font-weight: "medium";
+    font-size: 12px;
+    cursor: pointer;
+    border: 10px;
+    display: block;
+    width: 169;
+    height: 56;
 }
 button:hover {
     background-color: #404BBF;
@@ -24,13 +58,23 @@ button:hover {
         font-weight: "medium";
         font-size: 12px;
 }
+.ot {
+    border: 1px solid #F4F4FD;
+        padding: 1400;
+        background-color: #F4F4FD;
+}
 h2 {
+    color: #2E2F42;
     font-family: "roboto";
         font-weight: "bold";
         font-size: 36px;
 }
-h3 {
+.h3h4 {
+    color: #2E2F42;
     font-family: "roboto";
     font-weight: "medium";
     font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
+
