@@ -1,0 +1,36 @@
+h1 {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "bold";
+    font-size: 56px;
+    text-align: "center";
+    border: 3px solid #2E2F42;
+    width: 1440;
+    height: 600;
+    letter-spacing: 2%;
+}
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-family: "roboto";
+        font-weight: "medium";
+        font-size: 12px;
+}
+button:hover {
+    background-color: #404BBF;
+        color: #FFFFFF;
+        font-family: "roboto";
+        font-weight: "medium";
+        font-size: 12px;
+}
+h2 {
+    font-family: "roboto";
+        font-weight: "bold";
+        font-size: 36px;
+}
+h3 {
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 20px;
+}
