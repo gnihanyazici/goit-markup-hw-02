@@ -20,8 +20,15 @@ body {
     color: #434455;
 }
 
+.li1 {
+    font-family: "roboto" ;
+    font-weight: "medium";
+    font-size: 16px;
+    color: #2E2F42;
+} 
 ul {
     display: inline;
+    list-style-type: none;
 }
 
 .h1c {
@@ -36,6 +43,7 @@ h1 {
         font-family: "roboto";
         font-weight: "bold";
         font-size: 56px;
+        text-align: center;
         
 }
    
@@ -77,4 +85,27 @@ h2 {
     line-height: 24px;
     letter-spacing: 2%;
 }
+.ft {
+    background-color: #2E2F42;
+}
+.foot {
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "regular";
+    font-size: 16px;
+    text-align: center;
 
+}
+.logo1 {
+    font-family: "raleway" sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.studio1 {
+    color: #F4F4FD;
+}
