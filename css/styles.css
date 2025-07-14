@@ -20,32 +20,37 @@ body {
     color: #434455;
 }
 
-.li1 {
+.menu {
     font-family: "roboto" ;
     font-weight: "medium";
     font-size: 16px;
     color: #2E2F42;
+    display: flex;
 } 
 ul {
     display: inline;
     list-style-type: none;
+    gap: 20px;
+    justify-content: center;
 }
 
-.h1c {
+.adres {
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.baslik {
     border: 1px solid #2E2F42;
     padding: 1400;
     background-color: #2E2F42;
+    color: #FFFFFF;
+    font-family: "roboto";
+    font-weight: "bold";
+    font-size: 56px;
+    text-align: center;
 }
 
-h1 {
-    
-        color: #FFFFFF;
-        font-family: "roboto";
-        font-weight: "bold";
-        font-size: 56px;
-        text-align: center;
-        
-}
    
 button {
     background-color: #4D5AE5;
