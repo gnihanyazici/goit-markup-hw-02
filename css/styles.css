@@ -71,10 +71,19 @@ button:hover {
         font-weight: "medium";
         font-size: 12px;
 }
+
+.ozet {
+    display: flex;
+
+}
 .ot {
     border: 1px solid #F4F4FD;
-        padding: 1400;
-        background-color: #F4F4FD;
+    padding: 1400;
+    background-color: #F4F4FD;
+    display: flex;
+}
+.ourport {
+    display: flex;
 }
 h2 {
     color: #2E2F42;
