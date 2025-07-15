@@ -42,15 +42,18 @@ ul {
 
 .baslik {
     border: 1px solid #2E2F42;
-    padding: 1400;
     background-color: #2E2F42;
+    
+
+}
+.baslik h1{
     color: #FFFFFF;
     font-family: "roboto";
-    font-weight: "bold";
+    font-weight: "700";
     font-size: 56px;
     text-align: center;
+    line-height: 107%;
 }
-
    
 button {
     background-color: #4D5AE5;
@@ -60,9 +63,12 @@ button {
     font-size: 12px;
     cursor: pointer;
     border: 10px;
-    display: block;
     width: 169;
     height: 56;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
 }
 button:hover {
     background-color: #404BBF;
@@ -70,11 +76,18 @@ button:hover {
         font-family: "roboto";
         font-weight: "medium";
         font-size: 12px;
+        width: 169;
+        height: 56;
 }
 
 .ozet {
     display: flex;
-
+    color: #2E2F42;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 .ot {
     border: 1px solid #F4F4FD;
@@ -91,14 +104,7 @@ h2 {
         font-weight: "bold";
         font-size: 36px;
 }
-.h3h4 {
-    color: #2E2F42;
-    font-family: "roboto";
-    font-weight: "medium";
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
+
 .ft {
     background-color: #2E2F42;
 }
