@@ -18,6 +18,7 @@
 body {
     font-family: "roboto", sans-serif;
     color: #434455;
+    font-size: 16px;
 }
 
 .menu {
@@ -89,11 +90,24 @@ button:hover {
     line-height: 24px;
     letter-spacing: 2%;
 }
+
+.ozet p {
+    color: #2E2F42;
+    font-family: "roboto";
+    font-weight: "medium";
+    font-size: 16px;
+
+}
+.ourteam {
+    display: flex;
+    background-color: #F4F4FD;
+    border: 10px;
+
+}
 .ot {
     border: 1px solid #F4F4FD;
     padding: 1400;
     background-color: #F4F4FD;
-    display: flex;
 }
 .ourport {
     display: flex;
